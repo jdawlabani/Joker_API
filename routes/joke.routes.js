@@ -7,5 +7,4 @@ module.exports = (app) => {
     app.get('/api/jokes/:_id', getOneJoke)
     app.put('/api/jokes/:_id', updateJoke)
     app.delete('/api/jokes/:_id', deleteJoke)
-    
 }
